@@ -1,0 +1,42 @@
+.description {
+    &__header {
+        text-align: center;
+        font-size: 28px;
+        color: #333333;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    &__slider {
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(338px, 1fr));
+        // grid-template-columns: 338px 550px;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 4rem;
+    }
+    .carousel {
+        position: relative;
+        text-align: center;
+        // width: 400px;
+        margin: 0 auto;
+        border: 1px solid #666666;
+    }
+
+    
+    &__description {
+        text-align: justify;
+        border-bottom: 1px solid #bbb;
+        padding: 2rem;
+        margin: 0 auto;
+        font-size: 16px;
+        transition: 0.3s all;
+        &:hover{
+            transform: scale(1.14);
+            // box-shadow: (0 5px 20px -5px rgba(0, 0, 0, .5));
+        }
+        // box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, .5),
+        //             -5px -5px 20px -5px rgba(0, 0, 0, .5)
+
+    }
+}

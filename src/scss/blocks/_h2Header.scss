@@ -1,0 +1,14 @@
+.h2Header {
+    text-align: center;
+    font-size: 28px;
+    line-height: 40px;
+    color: #333333;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #eee;
+    &_fate {
+        font-size: 32px;
+        color: darkcyan;
+        font-weight: 700;
+    }
+}

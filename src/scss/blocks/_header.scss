@@ -1,0 +1,148 @@
+.header {
+    position: relative;
+    transition: 0.5s all;
+    background: url(./../../img/dizajn-vannoj-komnaty-s-dushevoj-kabinoj-34.jpg) center (center/cover) no-repeat;
+    &__shadow {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-36%);
+        width: 100%;
+        height: 70%;
+        background: rgba($color: #000000, $alpha: 0.5);
+    }
+    &__wrapper {
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        margin-left: 50px;
+        width: 350px;           
+        
+        img {
+            width: 100%;
+            filter: drop-shadow(1px 1px 2px black);
+            }
+    }
+    &__sublogo {
+        color: rgb(142, 216, 235);
+        margin-top: -33px;
+        filter: drop-shadow(1px 1px 7px #000);
+        margin-left: 180px;
+        font-size: 20px;
+        text-align: left;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    &__contact {
+        margin-top: 50px;
+        color: #fff;
+        // filter: drop-shadow(7px 1px 3px #000);
+        font-size: 20px;
+        display: inline;
+        text-align: right;
+        z-index: 100;
+        opacity: 0.7;
+        a {
+            margin-top: 5px;
+            color: #fff;
+            display: block;
+            font-size: 18px;
+            transition: 0.3s all;
+        &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+    // &__city {
+    //     color: #fff;
+    //     filter: drop-shadow(7px 1px 3px #000);
+    //     font-size: 20px;
+    // }
+    // &__phone {
+    //     font-size: 20px;
+    //     opacity: 0.8;
+    // }
+    &__navigation {
+        width: 100%;
+        background: $main_color;
+        z-index: 100;
+    }
+    &__menu {
+        margin-left: 330px;
+        height: 40px;
+        margin-top: 20px;
+        display: flex;
+        list-style-type: none;
+        &_logo {
+            display: none;
+        }
+    }
+    &__item {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-right: 30px;
+        opacity: 0.9;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    &__item:hover {
+        transform: scale(1.1);
+        color: #ffffff;
+    }
+
+}
+hr {
+    color: #008b8b;
+    margin: 0;
+}
+.hamburger {
+    display: none;
+}
+
+
+
+// // Progress
+// .progress-top,
+// .progress-right,
+// .progress-bottom,
+// .progress-left {
+//   position: fixed;
+//   z-index: 999;
+
+//   background-color: $color-alpha;
+// }
+
+// .progress-top,
+// .progress-bottom {
+//   height: $progress;
+// }
+
+// .progress-right,
+// .progress-left {
+//   width: $progress;
+// }
+
+// .progress-top,
+// .progress-right {
+//   top: 0;
+// }
+
+// .progress-top,
+// .progress-left {
+//   left: 0;
+// }
+
+// .progress-bottom,
+// .progress-left {
+//   bottom: 0;
+// }
+
+// .progress-bottom,
+// .progress-right {
+//   right: 0;
+// }
+

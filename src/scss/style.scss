@@ -1,0 +1,49 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    :active, :hover, :focus {
+        outline: 0;
+        outline-offset: 0;
+        text-decoration: none;
+    }
+    outline: none !important
+}
+a {
+    text-decoration: none;
+}
+
+@import 'base/fonts';
+@import 'base/variables';
+
+
+@import 'libs/bootstrap-grid.min';
+@import 'libs/bootstrap-reboot.min';
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/description';
+@import 'blocks/hr';
+@import 'blocks/h2Header';
+@import 'blocks/fitings';
+@import 'blocks/interest';
+@import 'blocks/footer';
+
+@import 'base/media';
+
+a:hover {
+    text-decoration: none;
+}
+
+.scrollUp {
+    img {
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        right: 2vw;
+        bottom: 4vh;
+        opacity: 0.6;
+        &:hover {
+            opacity: 1;
+        }
+    }
+    
+}
